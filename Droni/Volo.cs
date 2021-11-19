@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Droni
 {
     partial class Program
     {
-        static void Main(string[] args)
+        class Volo
         {
-            Console.WriteLine("Hello World!");
+            public int Id { get; }
+            public DateTime DataInizio { get; }
+            public DateTime DataFine { get; }
+            public Velivolo Velivolo { get; }
         }
-
     }
 }
 

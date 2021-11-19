@@ -1,13 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Droni
+﻿namespace Droni
 {
     partial class Program
     {
-        static void Main(string[] args)
+        class Velivolo
         {
-            Console.WriteLine("Hello World!");
+            public int Id { get; }
+            public double OreVolate { get; set; }
+            public string Tipologia { get; set; }
+
+            //Tipologia(valori assumibili: ala fissa, rotore)
+
+            //Tipologia(valori assumibili: manned, unmanned)
+
         }
 
     }
