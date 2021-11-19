@@ -7,7 +7,7 @@ namespace Droni
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Emiliano infame");
         }
 
     }
